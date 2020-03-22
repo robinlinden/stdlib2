@@ -7,7 +7,7 @@ struct S {
     double d;
 };
 
-int main2() {
+int __stdcall main() {
     bool a = false;
     bool b = !a;
     (void)b;
